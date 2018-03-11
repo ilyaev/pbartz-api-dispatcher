@@ -15,7 +15,7 @@ const resolvers = {
         },
         godotSnakeServerHost: (parent, args) => {
             return {
-                host: 'localhost',
+                host: '192.168.1.11',
                 port: 4000
             }
         }
