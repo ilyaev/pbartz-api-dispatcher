@@ -4,7 +4,8 @@
     "description": "PbArtz API Dispatcher",
     "main": "index.js",
     "scripts": {
-        "start": "node src/index.js"
+        "start": "node src/index.js",
+        "deploy": "git add . && git commit -m 'chore: deploy to heroku' && git push origin/master"
     },
     "keywords": [],
     "author": "Yura Ilyaev",
