@@ -1,0 +1,11 @@
+scalar Date
+
+type Query {
+    hello(name: String): String
+    godotSnakeServerHost: Host
+}
+
+type Host {
+    host: String
+    port: Int
+}

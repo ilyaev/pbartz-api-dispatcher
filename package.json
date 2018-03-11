@@ -1,0 +1,22 @@
+{
+    "name": "pbartz.tools.api.dispatcher",
+    "version": "1.0.0",
+    "description": "PbArtz API Dispatcher",
+    "main": "index.js",
+    "scripts": {
+        "start": "node src/index.js"
+    },
+    "keywords": [],
+    "author": "Yura Ilyaev",
+    "license": "ISC",
+    "devDependencies": {
+        "babel-cli": "6.26.0",
+        "babel-core": "6.26.0",
+        "babel-polyfill": "6.26.0",
+        "babel-preset-es2015": "6.24.1",
+        "graphql-yoga": "1.5.1"
+    },
+    "dependencies": {
+        "dateformat": "^3.0.3"
+    }
+}

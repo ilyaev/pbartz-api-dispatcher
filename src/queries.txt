@@ -1,0 +1,5 @@
+# get snake server host
+
+ query {
+   godotSnakeServerHost {host,port}
+ }
