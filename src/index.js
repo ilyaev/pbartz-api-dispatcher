@@ -14,6 +14,7 @@ const resolvers = {
             return returnValue
         },
         godotSnakeServerHost: (parent, args) => {
+            console.log('CONNECT: Here')
             return {
                 // host: '192.168.1.11',
                 host: '165.227.0.101',
