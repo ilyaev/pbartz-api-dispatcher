@@ -24,7 +24,8 @@ const resolvers = {
         },
         photoRemoteSocketHost: (parent, args) => {
             return {
-                host: '192.168.1.11',
+                // host: '192.168.1.11',
+                host: '165.227.0.101',
                 port: 8080
             }
         }
