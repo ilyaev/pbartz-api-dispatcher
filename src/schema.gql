@@ -3,6 +3,7 @@ scalar Date
 type Query {
     hello(name: String): String
     godotSnakeServerHost: Host
+    photoRemoteSocketHost: Host
 }
 
 type Host {
