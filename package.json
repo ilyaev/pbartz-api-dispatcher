@@ -1,6 +1,6 @@
 {
     "name": "pbartz.tools.api.dispatcher",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "PbArtz API Dispatcher",
     "main": "index.js",
     "scripts": {
